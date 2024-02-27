@@ -1,0 +1,2 @@
+pylint backend context_sync domain_evaluation edu_binshi infra_backbone infra_dingtalk
+mypy backend context_sync domain_evaluation edu_binshi infra_backbone infra_dingtalk

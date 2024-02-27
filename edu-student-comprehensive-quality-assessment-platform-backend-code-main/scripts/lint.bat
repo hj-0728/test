@@ -1,0 +1,2 @@
+pylint backend biz_comprehensive infra_backbone context_sync infra_dingtalk
+mypy backend biz_comprehensive infra_backbone context_sync infra_dingtalk

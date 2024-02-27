@@ -1,0 +1,54 @@
+    [database]
+url = "postgresql+psycopg2://student_comprehensive_quality_assessment_platform:student_comprehensive_quality_assessment_platform@10.10.10.171:5432/student_comprehensive_quality_assessment_platform_dev"
+
+[redis]
+url = "redis://:redis@10.10.10.113:6379/1"
+
+[flask]
+secret_key = "12345678"
+log_level = "INFO"
+proxy_allow_frontend = ["127.0.0.1", "::1"]
+session_timeout = 86400
+app_name = "student-comprehensive-quality-assessment-platform"
+app_info = "http://127.0.0.1:5000/"
+
+[storage_client]
+helper_type = 'minio'
+
+
+[minio]
+host = "dev-minio.qindingtech.com"
+port = 443
+access_key = "admin"
+secret_key = "Pa55word"
+secure = true
+default_bucket = "student-comprehensive-quality-assessment-platform"
+
+
+[jwt]
+secret_key = "password"
+access_token_expires = 86400
+refresh_token_expires = 604800
+blacklist_enabled = true
+
+
+[message_carrier]
+need_desensitization = false
+need_logging_error_info = true
+error_append_to_messages = false
+
+
+[pub_sub]
+user = "pubsub"
+password = "pubsub"
+host = "10.10.10.105"
+port = 5672
+virtual_host = "pubsub"
+queue = "student-comprehensive-quality-assessment-platform-dev"
+heartbeat = 0
+
+[dev]
+# 尽量只固定一种用户假登录，避免把当前角色等也配置到这儿的做法，这里期望的是假登录所需最少参数
+enabled = true
+user_id = "e195f508-d7a1-4551-9575-53c1765757db"
+user_category = "DINGTALK_USER" # 见backend中的EnumUserCategory

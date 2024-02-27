@@ -1,0 +1,9 @@
+.treeContent {
+    border: none;
+    color: black;
+    padding: 0
+}
+
+.treeContent :global(.p-tree-container .p-treenode .p-treenode-content) {
+    padding: 1px !important
+}

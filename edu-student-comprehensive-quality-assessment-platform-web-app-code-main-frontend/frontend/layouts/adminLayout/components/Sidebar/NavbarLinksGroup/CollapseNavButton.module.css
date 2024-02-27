@@ -1,0 +1,18 @@
+.menu {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.menuItemLink {
+    text-decoration: none;
+    color: inherit
+}
+
+.menuItemBox {
+    display: flex;
+    alignItems: center
+}
+
+.active {
+    background-color: var(--mantine-color-blue-light);
+}

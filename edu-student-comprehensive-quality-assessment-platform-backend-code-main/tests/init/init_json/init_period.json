@@ -1,0 +1,19 @@
+{
+  "academic_year_and_semester": {
+    "name": "2023-2024学年",
+    "started_on": "2023-09-01",
+    "ended_on": "2024-09-01",
+    "semester_list": [
+      {
+        "name": "2023-2024学年第一学期",
+        "started_on": "2023-09-01",
+        "ended_on": "2024-03-01"
+      },
+      {
+        "name": "2023-2024学年第二学期",
+        "started_on": "2024-03-01",
+        "ended_on": "2024-09-01"
+      }
+    ]
+  }
+}

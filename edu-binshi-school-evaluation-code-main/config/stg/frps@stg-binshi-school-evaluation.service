@@ -1,0 +1,16 @@
+[Unit]
+Description=Frps Stg Binshi School Evaluation
+After=network.target
+
+[Service]
+Type=simple
+User=nobody
+Restart=on-failure
+RestartSec=5s
+ExecStart=/data/tools/frp/frps -c /data/tools/frp/frps@stg-binshi-school-evaluation-40.ini
+LimitNOFILE=1048576
+
+[Install]
+WantedBy=multi-user.target
+
+

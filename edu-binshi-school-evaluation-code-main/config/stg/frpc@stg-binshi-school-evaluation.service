@@ -1,0 +1,16 @@
+[Unit]
+Description=Frpc Stg Binshi School Evaluation
+After=network.target
+
+[Service]
+Type=simple
+User=nobody
+Restart=on-failure
+RestartSec=5s
+ExecStart=/data/tools/frp/frpc -c /data/config/frp/frpc@stg-binshi-school-evaluation.ini
+
+LimitNOFILE=1048576
+
+[Install]
+WantedBy=multi-user.target
+

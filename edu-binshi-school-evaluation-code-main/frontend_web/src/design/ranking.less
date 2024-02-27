@@ -1,0 +1,151 @@
+.app-ranking-list {
+  position: relative;
+
+  .minus {
+    color: #ffa3a3;
+  }
+
+  .add {
+    color: #39a8ff;
+  }
+
+  .ant-list-header {
+    padding-top: 0;
+    padding-bottom: 8px;
+  }
+
+  .ant-list-items {
+    height: calc(42vh);
+    overflow-y: auto;
+  }
+
+  .ant-list {
+    position: relative !important;
+  }
+
+  .ant-spin-nested-loading {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    //justify-content: center;
+    align-items: center;
+    bottom: 36px;
+    top: 34px;
+    left: 0;
+    right: 0;
+    justify-content: stretch;
+
+    .ant-spin-container {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      width: 100%;
+      flex: 1;
+      justify-content: stretch;
+      box-sizing: border-box;
+
+      .ant-list-items {
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        flex: 1;
+        box-sizing: border-box;
+        padding-bottom: 38px;
+      }
+    }
+  }
+
+  .rank-student-item {
+    .ant-list-item-meta {
+      cursor: pointer;
+    }
+  }
+
+  .ranking-list-item {
+    .ranking-list-item__name {
+      @media screen and (max-width: 1366px) {
+        font-size: 13px;
+      }
+    }
+
+    .ranking-list-item__value {
+      @media screen and (max-width: 1366px) {
+        font-size: 13px;
+      }
+    }
+  }
+}
+
+.ranking-select-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  .select-item-wrapper {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+
+    span {
+      color: #999;
+      padding-left: 2px;
+      font-size: 14px;
+    }
+  }
+
+  .ant-select-selection-item {
+    color: black !important;
+  }
+}
+
+.ranking-stats-wrapper {
+  display: flex;
+  margin-right: 20px;
+  align-items: center;
+
+  .ranking-stats-item {
+    em {
+      font-size: 1em;
+      margin-left: 10px;
+      margin-right: 10px;
+      font-style: normal;
+      color: #999 !important;
+    }
+
+    label {
+      font-size: 1.2em;
+      // font-weight: bold;
+    }
+
+    .minus {
+      color: #ffa3a3;
+    }
+
+    .add {
+      color: #39a8ff;
+    }
+  }
+}
+
+.content-description {
+  line-height: 26px;
+  color: #787878;
+}
+
+.tag {
+  line-height: 36px !important;
+}
+
+.icon-top {
+  position: absolute;
+  top: 3px;
+}
+
+.margin-left {
+  margin-left: 32px;
+}
+
+.bold {
+  font-weight: bold;
+}

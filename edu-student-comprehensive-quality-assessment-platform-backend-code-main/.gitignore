@@ -1,0 +1,15 @@
+.idea/
+.vscode/
+venv/
+__pycache__/
+.mypy_cache
+.pytest_cache
+*.pyc
+migrations/
+*.bak
+*.log
+*.xpr
+node_modules/
+dist/
+archive_dist/
+build/

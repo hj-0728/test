@@ -1,0 +1,27 @@
+.obsPointItem {
+  box-shadow: 0 0 0 1px var(--mantine-color-gray-2);
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.obsPointItem:hover {
+  box-shadow: 0 0 2px 1px var(--mantine-color-blue-filled);
+}
+
+.active {
+  box-shadow: 0 0 2px 1px var(--mantine-color-blue-filled);
+}
+
+.showObservationPointScroll {
+  height: 292px !important;
+  overflow-y: auto;
+}
+
+.bottomBtn {
+  border-top: 1px solid #e9e9e9;
+}

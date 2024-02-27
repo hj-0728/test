@@ -1,0 +1,43 @@
+[
+    {
+        "name": "用户管理",
+        "code": "USER_MANAGEMENT_GROUP",
+        "is_permission": true,
+        "seq": 1
+    },
+    {
+        "id": "c9ba1c02-b4ea-4ff2-b4b1-b582a585f8d3",
+        "name": "系统管理",
+        "code": "SYSTEM_MANAGEMENT",
+        "is_permission": false,
+        "seq": 2
+    },
+    {
+        "name": "角色管理",
+        "code": "ROLE_MANAGEMENT",
+        "parent_id": "c9ba1c02-b4ea-4ff2-b4b1-b582a585f8d3",
+        "is_permission": true,
+        "seq": 1
+    },
+    {
+        "name": "菜单管理",
+        "code": "MENU_MANAGEMENT",
+        "parent_id": "c9ba1c02-b4ea-4ff2-b4b1-b582a585f8d3",
+        "is_permission": true,
+        "seq": 2
+    },
+    {
+        "name": "路由管理",
+        "code": "ROUTE_MANAGE",
+        "parent_id": "c9ba1c02-b4ea-4ff2-b4b1-b582a585f8d3",
+        "is_permission": true,
+        "seq": 3
+    },
+    {
+        "name": "功能权限",
+        "code": "FUNCTIONAL_PERMISSIONS",
+        "parent_id": "c9ba1c02-b4ea-4ff2-b4b1-b582a585f8d3",
+        "is_permission": true,
+        "seq": 4
+    }
+]

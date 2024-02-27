@@ -1,0 +1,8 @@
+.navbar {
+    margin-top: -60px;
+    height: 100%;
+}
+
+.main {
+    background-color: var(--mantine-color-gray-1)
+}

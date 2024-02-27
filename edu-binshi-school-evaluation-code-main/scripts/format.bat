@@ -1,0 +1,2 @@
+isort backend context_sync domain_evaluation edu_binshi infra_backbone infra_dingtalk
+black backend context_sync domain_evaluation edu_binshi infra_backbone infra_dingtalk

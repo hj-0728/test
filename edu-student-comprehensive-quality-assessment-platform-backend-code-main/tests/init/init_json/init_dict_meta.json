@@ -1,0 +1,22 @@
+[
+  {
+    "name": "系统表扬观测点图标",
+    "code": "SYSTEM_COMMEND_OBSERVATION_POINT_ICON"
+  },
+  {
+    "name": "系统待改进观测点图标",
+    "code": "SYSTEM_TO_BE_IMPROVED_OBSERVATION_POINT_ICON"
+  },
+  {
+    "name": "学生默认头像",
+    "code": "STUDENT_DEFAULT_AVATAR"
+  },
+  {
+    "name": "老师默认头像",
+    "code": "TEACHER_DEFAULT_AVATAR"
+  },
+  {
+    "name": "部门默认头像",
+    "code": "DEPT_DEFAULT_AVATAR"
+  }
+]

@@ -1,0 +1,19 @@
+.wrapper {
+    height: 96px;
+    margin-top: -100px !important;
+}
+
+.placeholder {
+    display: flex;
+}
+
+.appName {
+    font-size: 16px !important;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.appSubName {
+    font-size: 12px !important;
+}

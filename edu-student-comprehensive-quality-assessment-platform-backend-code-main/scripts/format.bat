@@ -1,0 +1,2 @@
+isort backend biz_comprehensive infra_backbone context_sync infra_dingtalk
+black backend biz_comprehensive infra_backbone context_sync infra_dingtalk

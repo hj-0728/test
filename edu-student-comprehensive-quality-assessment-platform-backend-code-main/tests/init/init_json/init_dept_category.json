@@ -1,0 +1,22 @@
+[
+    {
+        "name": "校区",
+        "code": "CAMPUS"
+    },
+    {
+        "name": "学段",
+        "code": "PERIOD"
+    },
+    {
+        "name": "年级",
+        "code": "GRADE"
+    },
+    {
+        "name": "班级",
+        "code": "CLASS"
+    },
+    {
+        "name": "普通节点",
+        "code": "DEPT"
+    }
+]

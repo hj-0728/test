@@ -1,0 +1,65 @@
+
+.addPointIcon {
+    width: 100px;
+    height: auto;
+    text-align: center;
+    cursor: pointer;
+    margin-left: calc(50% - 50px);
+}
+
+.addSelectPointIcon {
+    width: 100%;
+    height: auto;
+    padding: 1px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.addSelectedPointIcon {
+    width: 100%;
+    height: auto;
+    padding: 1px;
+    border-radius: 50%;
+    border: 1px solid #228be6;
+    cursor: pointer;
+}
+
+.addPointIconDiv {
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+}
+
+.selectIcon {
+    padding: 30px;
+}
+
+.selectScroll{
+    height: 55vh;
+    overflow-y: auto;
+}
+
+.addPointName {
+    margin: 30px 0;
+}
+
+.addPointName :global(.mantine-Chip-iconWrapper) {
+    display: none;
+}
+
+.addPointName :global(.mantine-Chip-label) {
+    --_chip-padding: var(--chip-checked-padding);
+}
+
+.modalBottom {
+    margin: 10px 0;
+    padding: 10px 0;
+    height: 50px;
+    border-top: 1px solid #e9e9e9;
+}
+
+.addPointsInfo {
+    border-right: 1px solid #e9e9e9;
+}
+
+

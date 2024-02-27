@@ -1,0 +1,62 @@
+[database]
+url = "postgresql+psycopg2://edu_binshi_school_evaluation:edu_binshi_school_evaluation@10.10.10.164:5432/edu_binshi_school_evaluation_dev"
+
+
+[redis]
+url = "redis://:redis@10.10.10.103:6379/30"
+
+
+[storage_client]
+helper_type = 'minio'
+
+
+[flask]
+secret_key = "12345678"
+log_level = "INFO"
+proxy_allow_frontend = ["127.0.0.1", "::1"]
+session_timeout = 86400
+app_name = "滨江实验小学德育评价平台"
+app_info = "http://127.0.0.1:5000/"
+
+
+[minio]
+host = "dev-minio.qindingtech.com"
+port = 443
+access_key = "admin"
+secret_key = "Pa55word"
+secure = true
+default_bucket = "edu-binshi-school-evaluation-dev"
+
+
+[jwt]
+secret_key = "password"
+access_token_expires = 86400
+refresh_token_expires = 604800
+blacklist_enabled = true
+redis_blocklist = "redis://:redis@10.10.10.103:6379/30"
+
+
+[message_carrier]
+need_desensitization = false
+need_logging_error_info = true
+error_append_to_messages = false
+
+
+[pub_sub]
+user = "pubsub"
+password = "pubsub"
+host = "10.10.10.105"
+port = 5672
+virtual_host = "pubsub"
+queue = "edu-binshi-school-evaluation-dev"
+heartbeat = 0
+
+[document_tools]
+api="http://10.10.10.103:8081"
+
+[dev]
+enabled = false
+dingtalk_corp_id = "a878cd9e-bc3b-4acf-a953-c50074a75043"
+remote_user_id = "065444072320760633"
+user_id = ''
+role_id = ''

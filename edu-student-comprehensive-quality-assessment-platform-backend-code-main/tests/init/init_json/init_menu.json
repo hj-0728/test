@@ -1,0 +1,57 @@
+[
+  {
+    "name": "首页",
+    "path": "/dashboard",
+    "icon": "IconHome2",
+    "category": "WEB",
+    "seq": 1
+  },
+  {
+    "id": "6b8449ac-3b56-4ca1-bdd4-63811368403e",
+    "name": "系统管理",
+    "path": "#",
+    "icon": "IconSettings",
+    "category": "WEB",
+    "seq": 2
+  },
+  {
+    "parent_id": "6b8449ac-3b56-4ca1-bdd4-63811368403e",
+    "name": "用户管理",
+    "path": "/user/list",
+    "icon": "IconUser",
+    "category": "WEB",
+    "seq": 1
+  },
+  {
+    "parent_id": "6b8449ac-3b56-4ca1-bdd4-63811368403e",
+    "name": "角色管理",
+    "path": "/role/list",
+    "icon": "IconAssembly",
+    "category": "WEB",
+    "seq": 2
+  },
+  {
+    "name": "菜单管理",
+    "path": "/menu/tree",
+    "icon": "IconMenu2",
+    "parent_id": "6b8449ac-3b56-4ca1-bdd4-63811368403e",
+    "category": "WEB",
+    "seq": 3
+  },
+  {
+    "name": "功能权限",
+    "path": "/ability-permission/tree",
+    "parent_id": "6b8449ac-3b56-4ca1-bdd4-63811368403e",
+    "icon": "icon-park-outline:permissions",
+    "category": "WEB",
+    "seq": 4
+  },
+  {
+    "name": "路由管理",
+    "path": "/route/list",
+    "icon": "ion:git-compare",
+    "parent_id": "6b8449ac-3b56-4ca1-bdd4-63811368403e",
+    "category": "WEB",
+    "seq": 5
+  }
+]
